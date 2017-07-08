@@ -1,0 +1,24 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./db.development.sqlite"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory:"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "a1920212223",
+    "database": "dbSiconv",
+    "host": "localhost",
+    "port": "5432",
+    "dialect": "postgres",
+    "parse": {
+      "serverUrl": "http://plataforma-mobile-dth.brazilsouth.cloudapp.azure.com:8080",
+      "applicationId": "siconv_crucr6hareT",
+      "masterKey": "siconv_XaswUt8eg+!r",
+      "mountPath": "/parse"
+    }
+  }
+}
